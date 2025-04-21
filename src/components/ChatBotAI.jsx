@@ -42,7 +42,7 @@ const CollegeChatbot = () => {
 
     try {
       // Send message to backend
-      const response = await axios.post('http://localhost:5000/api/chat', {
+      const response = await axios.post('http://localhost:4000/api/chat', {
         message: message
       });
 
@@ -75,7 +75,7 @@ const CollegeChatbot = () => {
   // Handle reset chat
   const handleResetChat = async () => {
     try {
-      await axios.post('http://localhost:5000/api/reset');
+      await axios.post('http://localhost:4000/api/reset');
       setMessages([
         { 
           id: 1, 
