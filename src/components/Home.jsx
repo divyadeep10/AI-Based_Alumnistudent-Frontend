@@ -323,14 +323,14 @@ const Home = () => {
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {[
-              { name: "IIT Delhi", logo: "🏛️", location: "New Delhi" },
-              { name: "NIT Trichy", logo: "🔬", location: "Tamil Nadu" },
-              { name: "BITS Pilani", logo: "📊", location: "Rajasthan" },
-              { name: "Delhi University", logo: "🎨", location: "New Delhi" },
-              { name: "AIIMS", logo: "🏥", location: "Multiple Locations" },
-              { name: "VIT Vellore", logo: "⚙️", location: "Tamil Nadu" },
-              { name: "NALSAR", logo: "⚖️", location: "Hyderabad" },
-              { name: "NID Ahmedabad", logo: "🎭", location: "Gujarat" }
+              { name: "Manipal Jaipur", logo: "🏛️", location: "Jaipur" },
+              { name: "Maharani college", logo: "🔬", location: "Jaipur" },
+              { name: "Maharishi Arvind University", logo: "📊", location: "Jaipur" },
+              { name: "St. Xavier's College", logo: "🎨", location: "Jaipur" },
+              { name: "Amity University", logo: "🏥", location: "Jaipur" },
+              { name: "Commerce College", logo: "⚙️", location: "Jaipur" },
+              { name: "S.S. Jain Subodh P.G", logo: "⚖️", location: "Jaipur" },
+              { name: "MNIT Jaipur", logo: "🎭", location: "Jaipur" }
             ].map((college, i) => (
               <motion.div
                 key={i}
