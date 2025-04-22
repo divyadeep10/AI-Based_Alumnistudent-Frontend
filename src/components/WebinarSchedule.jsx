@@ -265,7 +265,7 @@ const WebinarSchedule = () => {
                   <div className="mb-4">
                     {webinar.videoType === 'live' ? (
                       <Link 
-                        to={`http://localhost:3000//student/view?room=${webinar._id}`}
+                        to={`http://localhost:3000/student/view?room=${webinar._id}`}
                         className="text-blue-600 hover:text-blue-800 inline-block"
                       >
                         Join Live Stream
